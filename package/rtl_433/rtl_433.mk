@@ -1,11 +1,11 @@
 ################################################################################
 #
-# rtl_433
+# rtl_433 (with the pressure sniffer modifications)
 #
 ################################################################################
 
-RTL_433_VERSION = 23.11
-RTL_433_SITE = $(call github,merbanan,rtl_433,$(RTL_433_VERSION))
+RTL_433_VERSION = pressure_sniffer
+RTL_433_SITE = $(call github,rfilipovich,rtl_433,$(RTL_433_VERSION))
 RTL_433_LICENSE = GPL-2.0+
 RTL_433_LICENSE_FILES = COPYING
 RTL_433_CPE_ID_VALID = YES
